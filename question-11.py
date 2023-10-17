@@ -8,7 +8,7 @@ while item_price != "CHECKOUT":
         break
     else:
         item_price = float(item_price)
-        total_cost += item_price
+        total_cost += item_price 
         item_number += 1
         print("Your total number of items are", item_number)
         print("Your total cost is", total_cost , " Kenyan Shillings.")
